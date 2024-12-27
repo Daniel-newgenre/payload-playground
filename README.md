@@ -31,8 +31,67 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/newgenre/newgenre-next-template.git
-   cd newgenre-next-template
+   - Run the following command in your terminal:
+     ```bash
+     git clone https://github.com/newgenre/newgenre-next-template.git
+     cd newgenre-next-template
+     ```
+
+2. **Install dependencies:**
+
+   - Use pnpm to install the necessary packages:
+     ```bash
+     pnpm install
+     ```
+
+3. **Set up environment variables:**
+
+   - Create a `.env.local` file in the root directory.
+   - Add the following environment variables to the file:
+     ```bash
+     NEXT_PUBLIC_API_URL=https://your-payload-api-url.com
+     PAYLOAD_SECRET=your-secret-key
+     ```
+
+4. **Run the development server:**
+
+   - Start the local development server:
+     ```bash
+     pnpm dev
+     ```
+   - Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+---
+
+### Payload CMS Setup
+
+1. **Start the Payload CMS container (if using Docker):**
+
+   - Run the following command:
+     ```bash
+     docker-compose up -d
+     ```
+
+2. **Access the Payload CMS admin panel:**
+
+   - Open [http://localhost:3001/admin](http://localhost:3001/admin) in your browser.
+
+---
+
+### Building for Production
+
+1. **Build the application:**
+
+   - Generate the production build:
+     ```bash
+     pnpm build
+     ```
+
+2. **Start the production server:**
+
+   - Launch the production server:
+     ```bash
+     pnpm start
+     ```
