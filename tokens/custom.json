@@ -1,5 +1,5 @@
 {
-  "Variable collection/Light": {
+  "brand/Light": {
     "Neutral": {
       "0": {
         "value": "#fffbf5",
@@ -91,7 +91,7 @@
       }
     }
   },
-  "Variable collection/Dark": {
+  "brand/Dark": {
     "Neutral": {
       "0": {
         "value": "#000000",
@@ -186,8 +186,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Variable collection/Light",
-      "Variable collection/Dark"
+      "brand/Light",
+      "brand/Dark"
     ]
   }
 }
