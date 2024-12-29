@@ -1,11 +1,11 @@
 {
   "brand": {
     "primary": {
-      "value": "#353dd5",
+      "value": "#ffe647",
       "type": "color"
     },
     "secondary": {
-      "value": "#f62162",
+      "value": "#5d73f7",
       "type": "color"
     },
     "support": {
