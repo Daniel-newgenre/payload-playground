@@ -5,10 +5,17 @@
       "type": "color"
     }
   },
+  "Collection 1/Mode 1": {
+    "Color": {
+      "value": "#1bc565",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "brand"
+      "brand",
+      "Collection 1/Mode 1"
     ]
   }
 }
