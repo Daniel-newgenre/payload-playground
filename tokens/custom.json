@@ -25,6 +25,14 @@
     "purple": {
       "value": "#c049f6",
       "type": "color"
+    },
+    "large": {
+      "value": "32px",
+      "type": "borderRadius"
+    },
+    "medium": {
+      "value": "16px",
+      "type": "borderRadius"
     }
   },
   "$themes": [],
