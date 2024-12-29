@@ -21,6 +21,10 @@
         "value": ".CJK Symbols Fallback SC",
         "type": "fontFamilies"
       }
+    },
+    "purple": {
+      "value": "#c049f6",
+      "type": "color"
     }
   },
   "$themes": [],
