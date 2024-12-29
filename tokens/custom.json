@@ -11,27 +11,24 @@
     "green": {
       "value": "#1bc565",
       "type": "color"
-    }
-  },
-  "brand/brand": {
-    "blue": {
-      "value": "#353dd5",
-      "type": "color"
     },
-    "red": {
-      "value": "#e11a42",
-      "type": "color"
-    },
-    "green": {
-      "value": "#1bc565",
-      "type": "color"
+    "heading": {
+      "large": {
+        "value": {
+          "fontFamily": "GT Alpina",
+          "fontSize": "34px",
+          "fontWeight": "bold",
+          "lineHeight": "0",
+          "letterSpacing": "0.2"
+        },
+        "type": "typography"
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "brand",
-      "brand/brand"
+      "brand"
     ]
   }
 }
