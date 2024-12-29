@@ -2,11 +2,11 @@
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen w-full">
-      <section className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">Welcome to Your Site</h1>
+    <main className="w-full min-h-screen">
+      <section className="container px-4 py-16 mx-auto">
+        <h1 className="mb-6 text-4xl font-bold text-gray-900 text-test">Welcome to Your Site</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-gray-800">About Us</h2>
             <p className="text-gray-600">
@@ -22,7 +22,7 @@ export default function HomePage() {
               src/app/(frontend)/page.tsx
             </p>
             <button
-              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+              className="inline-flex items-center px-4 py-2 text-white bg-blue-600 rounded-md transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               onClick={() => console.log('Clicked')}
               onKeyDown={(e) => e.key === 'Enter' && console.log('Clicked')}
               tabIndex={0}
