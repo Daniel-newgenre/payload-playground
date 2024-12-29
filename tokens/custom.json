@@ -1,14 +1,14 @@
 {
   "brand": {
-    "blue": {
+    "primary": {
       "value": "#353dd5",
       "type": "color"
     },
-    "red": {
+    "secondary": {
       "value": "#f62162",
       "type": "color"
     },
-    "green": {
+    "support": {
       "value": "#1bc565",
       "type": "color"
     },
@@ -21,10 +21,6 @@
         "value": ".CJK Symbols Fallback SC",
         "type": "fontFamilies"
       }
-    },
-    "purple": {
-      "value": "#c049f6",
-      "type": "color"
     },
     "large": {
       "value": "32px",
