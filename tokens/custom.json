@@ -1,18 +1,37 @@
 {
   "brand": {
-    "neutral-0": {
-      "value": "HSL(36, 100%, 98%)",
+    "blue": {
+      "value": "#353dd5",
       "type": "color"
     },
-    "neutral-100": {
-      "value": "HSL(36, 28%, 93%)",
+    "red": {
+      "value": "#e11a42",
+      "type": "color"
+    },
+    "green": {
+      "value": "#1bc565",
+      "type": "color"
+    }
+  },
+  "brand/brand": {
+    "blue": {
+      "value": "#353dd5",
+      "type": "color"
+    },
+    "red": {
+      "value": "#e11a42",
+      "type": "color"
+    },
+    "green": {
+      "value": "#1bc565",
       "type": "color"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "brand"
+      "brand",
+      "brand/brand"
     ]
   }
 }
