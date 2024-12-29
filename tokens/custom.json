@@ -12,16 +12,14 @@
       "value": "#1bc565",
       "type": "color"
     },
-    "heading": {
-      "large": {
-        "value": {
-          "fontFamily": "GT Alpina",
-          "fontSize": "34px",
-          "fontWeight": "bold",
-          "lineHeight": "0",
-          "letterSpacing": "0.2"
-        },
-        "type": "typography"
+    "font": {
+      "sans": {
+        "value": "GT Alpina",
+        "type": "fontFamilies"
+      },
+      "serif": {
+        "value": ".CJK Symbols Fallback SC",
+        "type": "fontFamilies"
       }
     }
   },
